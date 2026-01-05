@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlobalReach Commodities</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans&display=swap" rel="stylesheet">
+<style>
+/* --- Global Styles --- */
+* {margin:0; padding:0; box-sizing:border-box;}
+body {font-family: 'Open Sans', sans-serif; line-height:1.6; color:#333;}
+a {text-decoration:none; color:#fff;}
+.container {width:90%; max-width:1200px; margin:auto;}
+section {padding:80px 0;}
+h1, h2, h3 {font-family: 'Montserrat', sans-serif; color:#0d1b2a;}
+button {cursor:pointer;}
+
+/* --- Header --- */
+header {
+  background-color:#0d1b2a;
+  color:#fff;
+  padding:20px 0;
+  position:sticky;
+  top:0;
+  z-index:100;
+}
+header .container {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+header nav a {
+  margin-left:20px;
+  font-weight:600;
+  transition:0.3s;
+}
+header nav a:hover {color:#fcbf49;}
+
+/* --- Hero Section --- */
+.hero {
+  background: linear-gradient(rgba(13,27,42,0.8), rgba(13,27,42,0.8)), url('https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=1470&q=80') center/cover no-repeat;
+  color:#fff;
+  text-align:center;
+  padding:150px 20px;
+}
+.hero h1 {font-size:3rem; margin-bottom:20px;}
+.hero p {font-size:1.2rem; margin-bottom:30px;}
+.hero button {
+  background:#fcbf49;
+  color:#0d1b2a;
+  border:none;
+  padding:15px 30px;
+  font-weight:bold;
+  border-radius:5px;
+  transition:0.3s;
+}
+.hero button:hover {background:#e0a800;}
+
+/* --- Sections --- */
+section h2 {text-align:center; margin-bottom:50px; font-size:2.2rem; color:#0d1b2a;}
+.cards {display:flex; flex-wrap:wrap; gap:30px; justify-content:center;}
+.card {
+  background:#f8f9fa;
+  padding:30px;
+  flex:1 1 250px;
+  border-radius:10px;
+  box-shadow:0 4px 8px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+.card:hover {box-shadow:0 8px 16px rgba(0,0,0,0.2);}
+.card h3 {margin-bottom:15px; color:#0d1b2a;}
+
+/* --- Contact Section --- */
+.contact {
+  background:#0d1b2a;
+  color:#fff;
+  text-align:center;
+}
+.contact a {display:inline-block; margin:10px 20px; padding:15px 25px; background:#fcbf49; color:#0d1b2a; border-radius:5px; font-weight:bold; transition:0.3s;}
+.contact a:hover {background:#e0a800;}
+
+/* --- Footer --- */
+footer {background:#081a2c; color:#ccc; text-align:center; padding:20px 0; font-size:0.9rem;}
+
+/* --- Responsive --- */
+@media(max-width:768px){
+  .cards {flex-direction:column; align-items:center;}
+  header .container {flex-direction:column;}
+  header nav a {margin:10px 0;}
+}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div class="container">
+    <div class="logo"><h2>GlobalReach Commodities</h2></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#commodities">Commodities</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Hero -->
+<section class="hero" id="home">
+  <div class="container">
+    <h1>GlobalReach Commodities</h1>
+    <p>Trusted Global Trading of Energy Commodities</p>
+    <button onclick="window.location.href='https://wa.me/13862226322'">Contact on WhatsApp</button>
+  </div>
+</section>
+
+<!-- Commodities Section -->
+<section id="commodities">
+  <div class="container">
+    <h2>Energy Commodities We Trade</h2>
+    <div class="cards">
+      <div class="card"><h3>EN590 Diesel</h3><p>Supplied in compliance with international fuel standards for global distribution.</p></div>
+      <div class="card"><h3>Jet Fuel (Jet A-1)</h3><p>Aviation-grade fuel sourced from verified refineries.</p></div>
+      <div class="card"><h3>Diesel D6</h3><p>Available for international bulk supply subject to contract terms.</p></div>
+      <div class="card"><h3>LNG</h3><p>Reliable sourcing for industrial and energy applications worldwide.</p></div>
+      <div class="card"><h3>LPG</h3><p>Clean-burning fuel for residential, commercial, and industrial use.</p></div>
+      <div class="card"><h3>Granular Sulfur</h3><p>High-quality sulfur for industrial and agricultural use.</p></div>
+      <div class="card"><h3>Bitumen</h3><p>Multiple grades available for road construction and industrial applications.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Section -->
+<section id="services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="cards">
+      <div class="card"><h3>Energy Commodity Trading</h3><p>We facilitate international trade between verified buyers and sellers of energy commodities.</p></div>
+      <div class="card"><h3>Quality Assurance</h3><p>Product verification, inspection compliance, and documentation accuracy for every transaction.</p></div>
+      <div class="card"><h3>Transaction Support</h3><p>Contract management, delivery coordination, and compliance monitoring for smooth trade operations.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="container">
+    <h2>Contact GlobalReach Commodities</h2>
+    <p>We are available exclusively via WhatsApp and email.</p>
+    <a href="https://wa.me/13862226322" target="_blank">WhatsApp: +1 386 222 6322</a>
+    <a href="mailto:officialnashjerome@gmail.com">Email: officialnashjerome@gmail.com</a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  © 2026 GlobalReach Commodities | Global Energy Trading | Quality Assurance | Trusted Partnerships
+</footer>
+
+</body>
+</html>
